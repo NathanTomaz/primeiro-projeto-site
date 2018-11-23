@@ -1,2 +1,2 @@
 # programas-faculdade
-Todos os programas feitos na/para faculdade
+Todos os programas feitos para a faculdade
