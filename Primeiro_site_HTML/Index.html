@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Agro</title>
+    <link rel= "stylesheet" type="text/css" href="_css/estilo.css"/>
+    <style>
+        body{
+          background-image:url("fundo.jpg");
+        }
+    </style>
+</head>
+<script>
+    function mudaFoto (foto){
+      document.getElementById("icone").src = foto;
+    }
+</script>
+<body>
+<div id="interface">
+    <hgroup>
+    <header id="cabecalho">
+    	<h1>Agriculture Business</h1>
+<h2>Agricultura com tecnologia de ponta...<h2>
+    </hgroup>
+
+
+<img id="icone" src="_imagens/logotipo_agro2.jpg" alt=""/>
+<nav id="menu">
+<h1>Menu Principal</h1>
+<ul type="disc">
+<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/logotipo_agro2.jpg')"><a href="Index.html">Home</a></li>
+<li onmouseover="mudaFoto('_imagens/tomate.jpg')" onmouseout="mudaFoto('_imagens/logotipo_agro2.jpg')"><a href="tomate.html">Tomate</a></li>
+<li onmouseover="mudaFoto('_imagens/banana2.png')" onmouseout="mudaFoto('_imagens/logotipo_agro2.jpg')"><a href="banana.html">Banana</a></li>
+<li onmouseover="mudaFoto('_imagens/batata.jpg')" onmouseout="mudaFoto('_imagens/logotipo_agro2.jpg')"><a href="batata.html">Batata</a></li>
+</ul>
+</nav>
+    </header>
+
+<section id="corpo">
+
+  <article id="noticia-principal">
+    <header id= "cabecalho-artigo">
+    <hgroup>
+<h3><a href="Index.html">Home</a><h3>
+<h1>Saiba tudo sobre Agricultura</h1>
+<h2>por Nathan Tomaz</h2>
+<h3 class="direita">Atualizado em 16/Junho/2018</h3>
+    </hgroup>
+    </header>
+
+<h2>O que é agricultura?</h2>
+<hr />
+<p>O termo agricultura quer dizer <a href="https://www.saraiva.com.br/a-arte-de-cultivar-199912.html" target="blank">“arte de cultivar”</a>. É o conjunto de técnicas concebidas para cultivar a terra a fim de obter produtos dela. Os produtos da agricultura são primariamente os alimentos, contudo, com os avanços nas técnicas e na tecnologia, a agricultura tem servido cada vez mais ao fornecimento de gêneros para a produção de fibras, energia, matéria-prima para roupas, combustível, construção, medicamentos, ferramentas, ornamentação e inúmeras outras finalidades. Esses produtos, bem como os métodos agrícolas utilizados, podem variar de uma parte do mundo para outra.</p>
+
+<figure class= "foto-legenda">
+<img src="_imagens/agricultura.jpg"/>
+<figcaption>
+    <h3>A agricultura é a lavoura ou o cultivo da terra.</h3>
+</figcaption>
+</figure>
+<h2>Agricultura familiar</h2>
+
+<p>Segundo a Constituição brasileira, materializada na Lei nº 11.326 de julho de 2006, considera-se agricultor familiar aquele que desenvolve atividades econômicas no meio rural e que atende alguns requisitos básicos, tais como: não possuir propriedade rural maior que 4 módulos fiscais*; utilizar predominantemente mão de obra da própria família nas atividades econômicas de propriedade; e possuir a maior parte da renda familiar proveniente das atividades agropecuárias desenvolvidas no estabelecimento rural.</p>
+
+<p>No ano de 2006, o IBGE realizou o Censo Agropecuário Brasileiro. Nele, verificou-se a força e a importância da agricultura familiar para a produção de alimentos no país.</p>
+
+<p>Outro dado interessante é que dos 80,25 milhões de hectares de área da agricultura familiar, 45,0% destinavam-se às pastagens; 28,0% eram compostos de matas, florestas ou sistemas agroﬂorestais; e 22% de lavouras. Segundo o IBGE, a agricultura familiar era responsável por grande parte da produção de alimentos no país, conforme a tabela abaixo.</p>
+<table id="tabelaspec">
+<tr><td>Produto</td> <td class="cd">Participação</td></tr>
+<tr><td>Mandioca</td> <td class="cd">87,0%</td></tr>
+<tr><td>Feijão</td> <td class="cd">70,0%</td></tr>
+<tr><td>Milho</td> <td class="cd">46,0%</td></tr>
+<tr><td>Café</td> <td class="cd">38,0%</td></tr>
+<tr><td>Arroz</td> <td class="cd">34,0%</td></tr>
+<tr><td>Leite</td> <td class="cd">58,0%</td></tr>
+<tr><td>Suínos</td> <td class="cd">59,0%</td></tr>
+<tr><td>Aves</td> <td class="cd">50,0%</td></tr>
+<tr><td>Bovinos</td> <td class="cd">30,0%</td></tr>
+<tr><td>Trigo</td> <td class="cd">21,0%</td></tr>
+<caption align="bottom"><span>Fonte: IBGE, Censo Agropecuário 2006</span></caption>
+</table>
+
+</article>
+</section>
+<aside id="lateral">
+<h1>Outras Notícias</h1>
+<h2>Vídeo mais recente</h2>
+<div id="tv-radio">
+<video id="filme" controls="controls" poster="_imagens/maxresdefault.jpg">
+  <source src="video.mp4" type="video/mp4"/>
+  Desculpe, navegador incompatível com formado do vídeo.
+</video>
+</div>
+
+<h2>Por que a agricultura está com problemas (e como resolver)?</h2>
+<p>Nossa agricultura enfrenta um grave problema. Para alimentar todos no futuro, provavelmente teremos que interromper 10.000 anos de práticas agrícolas e
+  transformar a agricultura em um sistema fechado, misturando tecnologias modernas com sistemas naturais, que a própria natureza nos ensinou.</p>
+</aside>
+<footer id="rodape">
+   <p><i>Copyright &copy; 2018 - by Nathan Tomaz
+               <a href="https://www.facebook.com/nathan.tomaz.39" target="blank">Facebook</a> |   <a href="https://twitter.com/vingadoresdepr?lang=pt" target="blank">Twitter</a></i> </p>
+</footer>
+</div>
+</body>
+</html>

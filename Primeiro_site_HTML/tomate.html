@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tomate</title>
+    <link rel= "stylesheet" type="text/css" href="_css/tomate.css"/>
+    <style>
+        body{
+          background-image:url("fundo.jpg");
+        }
+    </style>
+</head>
+<script>
+    function mudaFoto (foto){
+      document.getElementById("icone").src = foto;
+    }
+</script>
+<body>
+<div id="interface">
+    <hgroup>
+    <header id="cabecalho">
+    	<h1>Tomate</h1>
+    </hgroup>
+<img id="icone" src="_imagens/tomate.jpg" alt="Tomate"/>
+<nav id="menu">
+<h1>Menu Principal</h1>
+<ul type="disc">
+<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/tomate.jpg')"><a href="Index.html">Home</a></li>
+<li onmouseover="mudaFoto('_imagens/tomate.jpg')" onmouseout="mudaFoto('_imagens/tomate.jpg')"><a href="tomate.html">Tomate</a></li>
+<li onmouseover="mudaFoto('_imagens/banana2.png')" onmouseout="mudaFoto('_imagens/tomate.jpg')"><a href="banana.html">Banana</a></li>
+<li onmouseover="mudaFoto('_imagens/batata.jpg')" onmouseout="mudaFoto('_imagens/tomate.jpg')"><a href="batata.html">Batata</a></li>
+</ul>
+</nav>
+    </header>
+
+<section id="corpo">
+
+  <article id="noticia-principal">
+    <header id= "cabecalho-artigo">
+    <hgroup>
+<h3><a href="Index.html">Home</a> > <a href="tomate.html">Tomate</a><h3>
+
+<h3 class="direita">Atualizado em 16/Junho/2018</h3>
+    </hgroup>
+    </header>
+
+<h2>Clima</h2>
+<hr />
+<p>O tomateiro é originário da costa oeste da América do Sul, onde as temperaturas são moderadas (médias de 15 ºC a 19 ºC) e as precipitações pluviométricas não são muito intensas. Entretanto, floresce e frutifica em condições climáticas bastante variáveis. A planta pode desenvolver-se em climas do tipo tropical de altitude, subtropical e temperado, permitindo seu cultivo em diversas regiões do mundo. </p>
+
+<h2>Plantio</h2>
+<hr />
+<p>As sementes de tomate podem ser semeadas diretamente no local definitivo ou em sementeiras, copos ou saquinhos de plástico ou papel, com cerca de 10 cm de altura e 7 cm de diâmetro. Coloque de duas a cinco sementes em cada recipiente, a no máximo 1 cm de profundidade, deixando posteriormente apenas uma ou duas plantas por recipiente, mantendo as mudas que são mais vigorosas. O transplante das mudas de tomate é realizado quando as mudas atingem de 15 cm a 25 cm de altura, e no transplante parte do caule pode ser enterrado para propiciar o surgimento de mais raízes.
+
+<p>O espaçamento recomendado varia amplamente e depende da variedade cultivada e das condições de cultivo. Em geral, as cultivares de hábito indeterminado podem ser cultivadas com um espaçamento de 50 cm a 1,6 m entre plantas, e as cultivares de hábito determinado podem ser cultivadas com um espaçamento de 50 cm a 1 m entre plantas. Cultivares anãs podem ser plantadas com um espaçamento de 30 cm entre as plantas.</p>
+
+<p>
+Os tomateiros podem ser plantados em vasos, jardineiras, cestas suspensas, sacos plásticos com terra e outros tipos de recipientes, mas a cultivar a ser plantada deve ser escolhida de forma a adequar o tamanho da planta com o tamanho do recipiente. Em vasos grandes é possível plantar a maioria das cultivares, senão todas, mas as plantas podem ter seu tamanho e sua produtividade limitadas. Há cultivares de porte anão que podem ser cultivadas até mesmo em vasos relativamente pequenos, e que além de produzir frutos, também são bastante ornamentais.</p>
+
+<figure class= "foto-legenda">
+<img src="_imagens/lavoura-seca.jpg" alt="tomateiro"/>
+<figcaption>
+    <h3>Caramanchão com tomateiro</h3>
+</figcaption>
+</figure>
+
+<h2>Produção</h2>
+<hr />
+<iframe class="video" width="480" height="270" src="https://www.youtube.com/embed/e05Lu9Z7fO4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<h2>Região Produtora</h2>
+<hr />
+<p>Do campo diretamente à mesa, ou como matéria-prima, o tomate é fonte de emprego e renda. Apenas a indústria movimenta R$ 3,2 bilhões anuais. Goiás é o principal produtor do país, com 12,3 mil hectares de área plantada com a variedade específica para processamento. É uma atividade que gera sete empregos diretos por hectare.</p>
+
+<p>Somente uma fazenda, cujos donos preferem que não seja identificada,  a 100km do Distrito Federal, colhe 1.200 toneladas de tomates diariamente. Isso equivale a 60 caminhões do produto, entregues para a indústria no prazo de uma hora, ainda frescos. É um nível de eficiência difícil de encontrar até mesmo em países desenvolvidos.</p>
+
+<p>No Distrito Federal, o cultivo de tomate envolve 383 produtores, a maioria deles de pequeno porte, responsáveis por uma produção de 26.750 toneladas em 2016. Neste ano, entre janeiro e agosto, já são 25.295 toneladas produzidas na capital, de acordo com a Empresa de Assistência Técnica e Extensão Rural do Distrito Federal (Emater-DF).
+</p>
+<h2>Combate à Pragas</h2>
+<hr />
+<p><a href="https://halley.adm-serv.ufmg.br/ica/wp-content/uploads/2017/06/Pragas_de_tomate.pdf" target="blank">Estudo sobre pragas do tomateiro</a> feito pela Universidade Federal de Minas Gerais <a href="https://ufmg.br/" target="_blank">(UFMG)</a></p>
+</article>
+</section>
+
+<footer id="rodape">
+   <p><i>Copyright &copy; 2018 - by Nathan Tomaz
+               <a href="https://www.facebook.com/nathan.tomaz.39" target="blank">Facebook</a> |   <a href="https://twitter.com/vingadoresdepr?lang=pt" target="blank">Twitter</a></i> </p>
+</footer>
+</div>
+</body>
+</html>
