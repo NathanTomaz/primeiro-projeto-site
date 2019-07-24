@@ -20,7 +20,8 @@ p{
 
 body{
 		font-family: arial, sans-serif;
-    color:rgba(0, 0, 0, 1);
+	color:rgba(0, 0, 0, 1);
+	background: #228b22 !important;
  }
 
 div#interface{
@@ -54,7 +55,7 @@ header#cabecalho h1{
 }
 header#cabecalho h2{
 	font-family: 'Titillium Web', sans-serif;
-	color: #32CD32;
+	color: #cd3232;
 	font-size: 15pt;
 	padding: 0px;
 	margin-top: 0px;
@@ -73,7 +74,7 @@ nav#menu ul{
 }
 
 nav#menu li:hover{
-	background-color:#32CD32;
+	background-color:#cd3232;
 }
 
 nav#menu li{
@@ -108,8 +109,8 @@ section#corpo{
 
 article#noticia-principal h2 {
 	font-size: 13pt;
-	color: #2F4F4F;
-	background-color: #32CD32;
+	color: #fff;
+	background-color: #cd3232;
 	padding: 5px 0px 5px 10px;
 	margin: 10px 0px 10px 0px;
 }
@@ -158,9 +159,9 @@ aside#lateral h1 {
 }
 
 aside#lateral h2 {
-	background-color: #32CD32;
+	background-color: #cd3232;
 	font-size: 13pt;
-	color: #2F4F4F;
+	color: #fff;
 	padding: 5px;
 }
 
@@ -199,7 +200,7 @@ table#tabelaspec td{
 }
 
 table#tabelaspec td.cd{
-	background-color: #32CD32;
+	background-color: #cd3232;
 }
 table#tabelaspec caption span{
 	display: block;
